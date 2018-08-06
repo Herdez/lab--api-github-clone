@@ -1,0 +1,135 @@
+* {
+	/*outline: 1px solid red;*/
+}
+
+body {
+	margin: 0;
+}
+
+.main {
+	background: #D7DBDD;
+	display: flex;
+  	align-items: center;
+  	/*justify-content: space-between;*/
+  	padding: 9px 18px;
+  	margin-bottom: 13px;
+	&__image {
+		width: 3%;
+    	position: relative;
+    	left: 20px;
+	}
+	&__input {
+	    position: relative;
+	    left: 21%;
+	    width: 200px;
+	    height: 35px;
+	    margin-top: 16px;
+	}
+	&__list {
+       margin: 0px;
+       position: relative;
+       left: 2%;
+	   li {
+		   display: inline;
+		   padding-right: 40px;
+    	   font-size: 20px;
+		}
+	}
+}
+
+.grid {
+	display: flex;
+	margin-top: 30px;
+	&__first {
+		margin-left: 10px;
+		width: 23%;
+		display: flex;
+        flex-flow: column;
+	}
+    &__first-one {
+    	height: 420px;
+    }
+    &__avatar-name {
+    	margin-left: 32px;
+    	margin-bottom: 10px;
+    }
+    &__avatar-login {
+    	color: grey;
+    	margin-left: 32px;
+    	position: relative;
+    	bottom: 22px;
+    }
+    &__btn {
+	    width: 270px;
+	    height: 42px;
+	    position: relative;
+	    left: 32px;
+	    border: 1px solid#D7DBDD;
+        background: linear-gradient(white, #D7DBDD);
+        bottom: 30px; 
+        display: none; 
+    }
+    &__link {
+    	color: grey;
+    	font-size: 16px;
+    	margin-left: 32px;
+    	text-decoration: none;
+    	display: none;
+    }
+    &__line {
+    	width: 270px;
+    	margin-left: 32px;
+    	position: relative;
+    	top: 12px;
+    	display: none;
+    }
+	&__second {
+		width: 75%;
+		border-top: 1px solid #D7DBDD;
+	}
+	&__repo {
+		border-bottom: 1px solid #D7DBDD;
+		p {
+			font-size: 22px;
+		}
+	}
+	&__first-two {
+		position: relative;
+    	top: 57px;
+	}
+	&__company {
+	    font-weight: bold;
+		margin-left: 32px;
+		font-size: 18px;
+	}
+	&__location {
+		margin-left: 32px;
+		font-size: 18px;
+   		position: relative;
+        bottom: 15px;
+	}
+	&__email {
+		color: blue;
+		left: 32px;
+		font-size: 18px;
+        position: relative;
+        bottom: 30px;
+	}
+	&__link2 {
+		color: blue;
+        position: relative;
+        left: 32px;
+        bottom: 40px;
+        font-size: 18px;
+	}
+}
+
+.photo {
+	width: 270px;
+    margin-left: 32px;
+    border-radius: 2%;
+}
+
+
+
+

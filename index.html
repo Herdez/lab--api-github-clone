@@ -1,0 +1,49 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Github Clone</title>
+      <link rel="stylesheet" href="./css/styles.css">
+   </head>
+   <body>
+      <header class="main">
+        <img class="main__image" src="./images/github.png">
+        <form class="main__form">
+          <input class="main__input" type="text" name="username" placeholder="Insert github username"/>
+        </form>
+        <ul class="main__list">
+          <li>Pull Requests</li>
+          <li>Issues</li>
+          <li>Gist</li>
+        </ul>
+      </header>
+      <div class="grid">
+        <div class="grid__first">
+            <div class="grid__first-one">
+               <div class="grid__first-image">
+                  <!-- img goes here -->
+               </div>
+               <h1 class="grid__avatar-name"></h1>
+               <h2 class="grid__avatar-login"></h2>
+               <button class="grid__btn"><strong>Follow</strong></button>
+               <a class="grid__link" href="#">Block or report user</a>
+               <hr class="grid__line">
+            </div>
+            <div class="grid__first-two">
+            </div>
+        </div>
+        <div class="grid__second">
+          <div class="grid__repo">
+            <h2>OOP 4 en Ruby</h2>
+            <p>Object programming</p>
+            <p>Closure<span> | 0 | </span>23556z</p>
+          </div>
+        </div>
+      </div>
+     
+      <!-- js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>
+      <script type="text/javascript"src="./js/secret.js"></script>
+      <script src="./js/app.js"></script> 
+   </body>
+</html>

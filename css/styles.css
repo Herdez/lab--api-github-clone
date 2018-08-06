@@ -1,0 +1,107 @@
+* {
+  /*outline: 1px solid red;*/ }
+
+body {
+  margin: 0; }
+
+.main {
+  background: #D7DBDD;
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  padding: 9px 18px;
+  margin-bottom: 13px; }
+  .main__image {
+    width: 3%;
+    position: relative;
+    left: 20px; }
+  .main__input {
+    position: relative;
+    left: 21%;
+    width: 200px;
+    height: 35px;
+    margin-top: 16px; }
+  .main__list {
+    margin: 0px;
+    position: relative;
+    left: 2%; }
+    .main__list li {
+      display: inline;
+      padding-right: 40px;
+      font-size: 20px; }
+
+.grid {
+  display: flex;
+  margin-top: 30px; }
+  .grid__first {
+    margin-left: 10px;
+    width: 23%;
+    display: flex;
+    flex-flow: column; }
+  .grid__first-one {
+    height: 420px; }
+  .grid__avatar-name {
+    margin-left: 32px;
+    margin-bottom: 10px; }
+  .grid__avatar-login {
+    color: grey;
+    margin-left: 32px;
+    position: relative;
+    bottom: 22px; }
+  .grid__btn {
+    width: 270px;
+    height: 42px;
+    position: relative;
+    left: 32px;
+    border: 1px solid #D7DBDD;
+    background: linear-gradient(white, #D7DBDD);
+    bottom: 30px;
+    display: none; }
+  .grid__link {
+    color: grey;
+    font-size: 16px;
+    margin-left: 32px;
+    text-decoration: none;
+    display: none; }
+  .grid__line {
+    width: 270px;
+    margin-left: 32px;
+    position: relative;
+    top: 12px;
+    display: none; }
+  .grid__second {
+    width: 75%;
+    border-top: 1px solid #D7DBDD; }
+  .grid__repo {
+    border-bottom: 1px solid #D7DBDD; }
+    .grid__repo p {
+      font-size: 22px; }
+  .grid__first-two {
+    position: relative;
+    top: 57px; }
+  .grid__company {
+    font-weight: bold;
+    margin-left: 32px;
+    font-size: 18px; }
+  .grid__location {
+    margin-left: 32px;
+    font-size: 18px;
+    position: relative;
+    bottom: 15px; }
+  .grid__email {
+    color: blue;
+    left: 32px;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px; }
+  .grid__link2 {
+    color: blue;
+    position: relative;
+    left: 32px;
+    bottom: 40px;
+    font-size: 18px; }
+
+.photo {
+  width: 270px;
+  margin-left: 32px;
+  border-radius: 2%; }
